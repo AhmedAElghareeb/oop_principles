@@ -146,4 +146,18 @@
 // it's not right if i take object from mixin class because it's an abstract class.
 
 // 4 - Encapsulation Principle (Encapsulation is the concept of hiding the internal details of an object and providing a public interface. (OR). Encapsulation is the concept of bundling data and methods that operate on the data into a single unit (a class) to restrict access and protect data integrity.)
-// 
+
+// import 'dart:io';
+// import 'encapsulation_principle/user.dart';
+//
+// void main() {
+//   User user = User();
+// user.setPassword = stdin.readLineSync()!;
+// print(
+//   user.getPass,
+// );
+// user.name = stdin.readLineSync()!;
+// print(user.password,);
+// }
+
+// can make more than one constructor but when i type the name write it like that : constructor.anything --> {Named Constructor}
