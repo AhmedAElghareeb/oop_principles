@@ -57,9 +57,9 @@
 // Interface --> Like abstract class {interface must have methods with no body but abstract have one method at least have body}
 // can't take object from abstract class (but if i extend it with another class then i can take an object from it)
 
-// import 'dart:math';
-
 // example of override :
+
+// import 'dart:math';
 // void main() {
 //   // Shape s = Shape();
 //   // Shape c = Circle();
@@ -79,7 +79,7 @@
 //   }
 // }
 //
-// class Circle extends Shape {
+// class Circle implements Shape {
 //   late double radius;
 //
 //   @override
@@ -95,9 +95,13 @@
 //   double mo7it() {
 //     return 2 * pi * radius;
 //   }
+//
+//   @override
+//   printDetails() {}
 // }
 
 // example of overload : (calling same item but without arrange)
+
 // void main() {
 //   Car c = Car(
 //     name: "Audi",
